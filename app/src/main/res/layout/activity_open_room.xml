@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:id="@+id/makeRoom"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/create_room"
+        android:layout_marginLeft="120dp"
+        />
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:id="@+id/enterRoom"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/enter_room"
+        android:layout_marginLeft="120dp"/>
+</LinearLayout>

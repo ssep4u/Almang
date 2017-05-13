@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "316924816207",
+    "firebase_url": "https://dormitory-master.firebaseio.com",
+    "project_id": "dormitory-master",
+    "storage_bucket": "dormitory-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316924816207:android:5f35a5035c3e1392",
+        "android_client_info": {
+          "package_name": "com.example.eunbee.help_dormitory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316924816207-r8tmi2t0nicaih2l4uo19uvpk4kaenm3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eunbee.help_dormitory",
+            "certificate_hash": "77382723500de5c780a6892799ccd89cd6676094"
+          }
+        },
+        {
+          "client_id": "316924816207-k5g56h6jb5n48p7keuuv54ed5dilvuuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkHTO3EZrkEOARzydg5XYwEPOuIUZw6-8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316924816207-k5g56h6jb5n48p7keuuv54ed5dilvuuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

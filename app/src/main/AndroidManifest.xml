@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="emirim.hs.kr.dormitory">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>-->
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity android:name=".FacebookLoginActivity">
+        </activity>
+        <activity android:name=".OpenRoomActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs "com.example.myapp://" -->
+                <data android:scheme="emirim.hs.kr.dormitory" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name=".NewPostActivity"
+            android:windowSoftInputMode="adjustResize"/>
+
+        <activity android:name=".PostDetailActivity"
+        android:windowSoftInputMode="adjustPan"></activity>
+
+        <activity android:name=".NewBuyActivity"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity android:name=".BuyDetailActivity"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <!-- [START firebase_service] -->
+
+    </application>
+
+</manifest>
